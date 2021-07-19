@@ -118,15 +118,15 @@ curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh -o inst
 chmod +x install_nvm.sh
 ./install_nvm.sh
 
-nvm install 0.10.48
-nvm use 0.10.48
-nvm alias default 0.10.48
-nvm use default
+ sudo bash -ic "nvm install 0.10.48"
+ sudo bash -ic "nvm use 0.10.48"
+ sudo bash -ic "nvm alias default 0.10.48"
+ sudo bash -ic "nvm use default"
 
 sudo apt install node-gyp
 
 
-npm update
+sudo npm update
 ```
 
 #### 2) Configuration

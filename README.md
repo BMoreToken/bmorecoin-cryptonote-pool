@@ -108,6 +108,9 @@ Clone the repository and run `npm update` for all the dependencies to be install
 git clone https://github.com/zone117x/node-cryptonote-pool.git pool
 cd pool
 
+curl -sL https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.0/install.sh -o install_nvm.sh
+chmod +x install_nvm.sh
+./install_nvm.sh
 nvm install 0.10.48
 nvm use 0.10.48
 nvm alias default 0.10.48

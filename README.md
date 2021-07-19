@@ -126,7 +126,7 @@ chmod +x install_nvm.sh
 sudo apt install node-gyp
 
 
-sudo npm update
+sudo bash -ic "npm update"
 ```
 
 #### 2) Configuration

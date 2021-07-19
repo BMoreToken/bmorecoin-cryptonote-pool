@@ -123,6 +123,9 @@ nvm use 0.10.48
 nvm alias default 0.10.48
 nvm use default
 
+sudo apt install node-gyp
+
+
 npm update
 ```
 

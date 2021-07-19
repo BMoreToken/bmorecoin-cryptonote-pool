@@ -144,10 +144,10 @@ Copy the `config_example.json` file to `config.json` then overview each options 
 Explanation for each field:
 ```javascript
 /* Used for storage in redis so multiple coins can share the same redis instance. */
-"coin": "monero",
+"coin": "bmorecoin",
 
 /* Used for front-end display */
-"symbol": "MRO",
+"symbol": "BALTx",
 
 "logging": {
 
@@ -322,7 +322,7 @@ point to your zip file.
 #### 4) Start the pool
 
 ```bash
-node init.js
+sudo bash -ic "node init.js"
 ```
 
 The file `config.json` is used by default but a file can be specified using the `-config=file` command argument, for example:
